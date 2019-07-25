@@ -1,0 +1,13 @@
+- A commit is a snapshot of the project in time, and the collection of commits contains the project's history.
+- Branches allow independent teams to work on the project at once at scale , Master branch is the default branch
+- A branch can be created to work on a version of the project that other branches do not know about.
+- After merge ,the Master branch contains new features
+- Pull requests are requests to merge your branch into other branch, A pull request is a request
+  for others to review and approve the changes made to the project on a branch.
+  ***Continuous Improvements - Commits***
+  ***Simultaneous Stability and Development - Branches***
+  ***Improved Quality - Pull Requests***
+  - Repository : Project History
+  - Each user has a local repository, containing the project history as a collection of commits.
+  - Git : Distributed Version Control System
+  - Git Repo : A series of Snapshots, or commits.
