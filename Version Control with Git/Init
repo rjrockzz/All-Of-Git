@@ -11,3 +11,28 @@
   - Each user has a local repository, containing the project history as a collection of commits.
   - Git : Distributed Version Control System
   - Git Repo : A series of Snapshots, or commits.
+- Working Tree : a single commit's directories and files.
+- Staging Area / Index : contains a list of files that are to be committed next.
+- Local Repository : Contains the commits of the projects
+- Remote Repository : Contains the commits of the projects
+- /.git : contains the staging area and the local repository
+***Project directory includes the staging area, working tree and a .git directory. The .git directory contains the local repository.***
+- ls -a : list all hidden directories
+-  Git status to view the status of files in the working tree and staging area.
+- touch filename : to create a file
+-  git add : to add content to the staging area. (git add . : to stage all the files)
+- To modify file contents : echo "Arjun Sharma" > arjun.txt
+- Commit : git commit -m "initial commit" 
+- Committed Logs - git log --oneline -#
+- If local repo exists : use git add to add the remote
+- If local repo does not exists : use git clone to add the remote
+- git clone : used to create a local copy of a remote repository
+- git remote -v(verbose) : displays info about the remote repositories associated with the local repositories.
+- If you already have a local repository with commits that you want to push to a remote repository,
+   you can use the git remote add command. This command add's information about the remote repository to the local repository.
+- git remote add origin1 https://github.com/rjrockzz/All-Of-Git.git  :  GitHub URL is associated with an alias named origin1.
+- A Branch is an independent line of development
+- git push : writes commits for a branch to a remote repository
+- Git push synchronizes the branches on the local and remote repositories so that they contain exactly the same commits. 
+ - The set upstream, or -u option, is used to set up a tracking relationship between your local branch and the corresponding
+    remote branch. Git can then inform you when the branches are out of sync.
