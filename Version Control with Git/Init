@@ -36,3 +36,24 @@
 - Git push synchronizes the branches on the local and remote repositories so that they contain exactly the same commits. 
  - The set upstream, or -u option, is used to set up a tracking relationship between your local branch and the corresponding
     remote branch. Git can then inform you when the branches are out of sync.
+- Git models the relationship of commits with the directed acyclic graph. The entire graph contains a project's history.
+  Each node in Git represents a commit. The arrows point at a commit's parents.
+  - A merge occurs when a commit has more than one parent.
+  - Commit points to the parent
+*   Git Objects - 
+      1. commit object is a simple text file that contains information
+      such as the commit user information, commit message, a reference 
+      to the commit's parent or parents, and a reference to the root tree
+      of the project. That information is all that Git needs to rebuild 
+      he full contents of a commit. 
+      
+      2. An annotated tag is a reference to a specific commit. 
+      
+      3. A tree is an object that contains a list of the filenames 
+      and directories inside of a directory. 
+      
+      4. A blob is an object that stores the content of a file that is being 
+      managed by Git.
+      
+-  A Git ID is the name of a Git object. All of the objects stored by Git are named with a 40-character hexadecimal string.
+- Git IDs are SHA - 1 : Secure Hash Algorithms - 1
