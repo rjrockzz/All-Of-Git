@@ -76,3 +76,5 @@
 - To tag a commit with an annotated tag, you also use the git tag command, but specify the -a option. This will create a Git object.
 - A tag is a reference to a specific commit.
 - C:\Users\RJ\repos\myproject>git push https://github.com/rjrockzz/All-Of-Git.git v1.0
+- git branch featureX : to create a branch
+- git branch checkout featureX : To switch to that branch
