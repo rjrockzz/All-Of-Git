@@ -78,3 +78,21 @@
 - C:\Users\RJ\repos\myproject>git push https://github.com/rjrockzz/All-Of-Git.git v1.0
 - git branch featureX : to create a branch
 - git branch checkout featureX : To switch to that branch
+- git checkout -b featureX : Combines branch and checkout commands
+- Checkout updates the working tree and HEAD reference.
+- Detached HEAD : The HEAD reference points directly to a commit.
+- C:\Users\RJ\repos\myproject>git branch -d featureX
+  Deleted branch featureX (was 2a4fa7a).
+- Git reflog is a command that returns a local list of recent HEAD commits.
+
+- git checkout -b featureX 7bcb146 : to get back to our dangling commits
+- Mergiing combines work of independent branches.
+ - There are four main types of merges, 
+  * fast-forward merge(Default) : A fast-forward merge moves the base branch label to the tip of the topic branch. 
+                                : A fast forward merge is possible only if no other commits have been made to the 
+                                  base branch since the topic branch was created.
+  * Merge commit : A merge commit combines the work of the tips of the feature and base branches and places
+                   the result into a single merge commit.
+                   git merge --no-ff featureX
+  * squash merge
+  * Rebase. 
