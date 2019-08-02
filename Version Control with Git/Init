@@ -96,3 +96,5 @@
                    git merge --no-ff featureX
   * squash merge
   * Rebase. 
+  - Hunk - different parts of a file
+  - A merge conflict occurs when two branches change the same hunk in different ways.
