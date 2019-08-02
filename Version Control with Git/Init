@@ -105,5 +105,7 @@
   - A remote repository is necessary to have tracking branches.
   - When you clone a repository, the default branch is set up as a tracking branch.
   - Fetch : retrieves new objects and references from the remote repository.
-  - Pull : Fetches and merges commits locally
+  - Pull : Fetches and merges commits locally : To merge a branch in the project
   - Push : Adds new objects and references to the remote repository
+  -  Rebasing on the base branch It lets you perform a single rebase operation of your 
+    Pull Request commits on top of your base branch and then perform a merge.
