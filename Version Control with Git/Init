@@ -1,3 +1,7 @@
+
+# :memo: Git
+
+keypoints:
 - A commit is a snapshot of the project in time, and the collection of commits contains the project's history.
 - Branches allow independent teams to work on the project at once at scale , Master branch is the default branch
 - A branch can be created to work on a version of the project that other branches do not know about.
@@ -54,7 +58,7 @@
       
       4. A blob is an object that stores the content of a file that is being 
       managed by Git.
-      
+     
 -  A Git ID is the name of a Git object. All of the objects stored by Git are named with a 40-character hexadecimal string.
 - Git IDs are SHA - 1 : Secure Hash Algorithms - 1
 - C:\Users\RJ\repos\myproject
